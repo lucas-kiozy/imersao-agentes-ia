@@ -27,34 +27,33 @@ Este repositório contém o material das aulas e exercícios propostos realizado
 <table>
 <tr>
   <td align="center">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/><br>Python
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/><br>Python
   </td>
   <td align="center">
-    <img src="https://www.gstatic.com/devrel-devsite/prod/vf6a0b8cde18f61efeff478b69c2b821ca08f0a0b14d1ef9c15fa412fc9c6c8bc/cloud/images/favicons/onecloud/apple-icon.png" width="40" height="40"/><br>Google Gemini
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Google_Gemini_logo.svg" width="40" height="40" alt="Google Gemini"/><br>Google Gemini
   </td>
   <td align="center">
-    <img src="https://www.gstatic.com/devrel-devsite/prod/vf6a0b8cde18f61efeff478b69c2b821ca08f0a0b14d1ef9c15fa412fc9c6c8bc/cloud/images/favicons/onecloud/apple-icon.png" width="40" height="40"/><br>Google AI
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" width="40" height="40" alt="Google"/><br>Google AI
   </td>
   <td align="center">
-    <img src="https://www.gstatic.com/devrel-devsite/prod/vf6a0b8cde18f61efeff478b69c2b821ca08f0a0b14d1ef9c15fa412fc9c6c8bc/cloud/images/favicons/onecloud/apple-icon.png" width="40" height="40"/><br>Google API
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Google_Cloud_logo.svg" width="40" height="40" alt="Google Cloud"/><br>Google API
   </td>
 </tr>
 <tr>
   <td align="center">
-    <img src="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/images/langchain-icon.svg" width="40" height="40"/><br>LangChain
+    <img src="https://github.com/langchain-ai/langchain.png" width="40" height="40" alt="LangChain"/><br>LangChain
   </td>
   <td align="center">
-    🧩<br>LangGraph
+    <img src="https://github.com/langchain-ai.png" width="40" height="40" alt="LangChain (LangGraph)"/><br>LangGraph
   </td>
   <td align="center">
-    ⚙️<br>FAISS (faiss-cpu)
+    <img src="https://github.com/facebookresearch/faiss.png" width="40" height="40" alt="FAISS"/><br>FAISS (faiss-cpu)
   </td>
   <td align="center">
-    📄<br>PyMuPDF (pymupdf)
+    <img src="https://github.com/pymupdf.png" width="40" height="40" alt="PyMuPDF"/><br>PyMuPDF (pymupdf)
   </td>
 </tr>
 </table>
-
 
 > Lista completa e versões estão no `requirements.txt` do repositório.
 
