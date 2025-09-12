@@ -22,28 +22,39 @@ Este repositório contém o material das aulas e exercícios propostos realizado
 
 ## 🚀 Tecnologias
 
+## 🚀 Tecnologias
+
 <table>
 <tr>
-<td align="center">🐍<br>Python</td>
-<td align="center">🤖<br>google-generativeai</td>
-<td align="center">🤖<br>google-ai-generativelanguage</td>
-<td align="center">☁️<br>google-api-core / google-api-python-client / google-auth</td>
-<td align="center">📦<br>googleapis-common-protos</td>
+  <td align="center">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/><br>Python
+  </td>
+  <td align="center">
+    <img src="https://www.gstatic.com/devrel-devsite/prod/vf6a0b8cde18f61efeff478b69c2b821ca08f0a0b14d1ef9c15fa412fc9c6c8bc/cloud/images/favicons/onecloud/apple-icon.png" width="40" height="40"/><br>Google Gemini
+  </td>
+  <td align="center">
+    <img src="https://www.gstatic.com/devrel-devsite/prod/vf6a0b8cde18f61efeff478b69c2b821ca08f0a0b14d1ef9c15fa412fc9c6c8bc/cloud/images/favicons/onecloud/apple-icon.png" width="40" height="40"/><br>Google AI
+  </td>
+  <td align="center">
+    <img src="https://www.gstatic.com/devrel-devsite/prod/vf6a0b8cde18f61efeff478b69c2b821ca08f0a0b14d1ef9c15fa412fc9c6c8bc/cloud/images/favicons/onecloud/apple-icon.png" width="40" height="40"/><br>Google API
+  </td>
 </tr>
 <tr>
-<td align="center">🧭<br>LangChain (langchain, langchain-core, langchain-community, langchain-google-genai)</td>
-<td align="center">✂️<br>langchain_text_splitters</td>
-<td align="center">🔗<br>LangGraph</td>
-<td align="center">🗄️<br>FAISS (faiss-cpu)</td>
-</tr>
-<tr>
-<td align="center">🔐<br>python-dotenv</td>
-<td align="center">📄<br>PyMuPDF (pymupdf)</td>
-<td align="center">🐚<br>ipython</td>
-<td></td>
-<td></td>
+  <td align="center">
+    <img src="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/images/langchain-icon.svg" width="40" height="40"/><br>LangChain
+  </td>
+  <td align="center">
+    🧩<br>LangGraph
+  </td>
+  <td align="center">
+    ⚙️<br>FAISS (faiss-cpu)
+  </td>
+  <td align="center">
+    📄<br>PyMuPDF (pymupdf)
+  </td>
 </tr>
 </table>
+
 
 > Lista completa e versões estão no `requirements.txt` do repositório.
 
