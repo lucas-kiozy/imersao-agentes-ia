@@ -41,13 +41,13 @@ Este repositório contém o material das aulas e exercícios propostos realizado
 </tr>
 <tr>
   <td align="center">
-    <img src="https://github.com/langchain-ai/langchain.png" width="40" height="40" alt="LangChain"/><br>LangChain
+    🧩<br>LangChain
   </td>
   <td align="center">
     <img src="https://github.com/langchain-ai.png" width="40" height="40" alt="LangChain (LangGraph)"/><br>LangGraph
   </td>
   <td align="center">
-    <img src="https://github.com/facebookresearch/faiss.png" width="40" height="40" alt="FAISS"/><br>FAISS (faiss-cpu)
+    ⚙️<br>FAISS (faiss-cpu)
   </td>
   <td align="center">
     <img src="https://github.com/pymupdf.png" width="40" height="40" alt="PyMuPDF"/><br>PyMuPDF (pymupdf)
