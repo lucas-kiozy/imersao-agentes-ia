@@ -189,15 +189,14 @@ class AgentState(TypedDict, total = False):
     
 def node_triagem(state: AgentState) -> AgentState:
     print("\n--- Executando nó de triagem ---")
-    state['triagem'] = triagem(state['mensagem'])
-    return state
+    return {'triagem': triagem(state['pergunta'])}
 
 def node_auto_resolver(state: AgentState) -> AgentState:
     print("\n--- Executando nó de auto-resolver ---")
     resposta_rag = perguntar_politica_RAG(state['pergunta'])
     update: AgentState = {
         'resposta': resposta_rag['aswer'],
-        'citacoes': resposta_rag['citacoes'],
+        'citacoes': resposta_rag.get('citacoes', []),
         'rag_sucesso': resposta_rag['contexto_encontrado']
     }
     if resposta_rag['contexto_encontrado']:
@@ -285,3 +284,15 @@ testes = [
     "Posso reembolsar cursos ou treinamentos da Alura?",
     "Quantas classes tem no Path of Exile 2?"
 ]
+
+for msg_teste in testes:
+    resposta_final = grafo.invoke({'pergunta': msg_teste})
+
+    triag = resposta_final.get('triagem', {})
+    print(f'\n\n=== Pergunta: {msg_teste}')
+    print(f'\n=== Decisão:{triag.get('decisao')} | Urgência:{triag.get('urgencia')} | Ação final:{resposta_final.get('acao_final')}')
+    print(f'\n=== Resposta: {resposta_final.get('resposta')}')
+    if resposta_final.get('citacoes'): 
+        print(f'\n=== Citações:')
+        for cit in resposta_final['citacoes']:
+            print(f" - {cit['documento']} (página: {cit['pagina']}): {cit['trecho']}")  
