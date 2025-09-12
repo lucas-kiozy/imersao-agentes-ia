@@ -9,6 +9,8 @@ langchain-core==0.3.75
 langchain-community==0.3.29
 langchain-google-genai==2.0.10
 langchain_text_splitters==0.3.11
+langgraph==0.6.7
 pymupdf==1.26.4
 python-dotenv==1.1.1
 faiss-cpu==1.12.0
+ipython==9.5.0
