@@ -50,7 +50,7 @@ Este repositório contém o material das aulas e exercícios propostos realizado
     ⚙️<br>FAISS (faiss-cpu)
   </td>
   <td align="center">
-    <img src="https://github.com/pymupdf.png" width="40" height="40" alt="PyMuPDF"/><br>PyMuPDF (pymupdf)
+    <img src="https://github.com/pymupdf.png" width="40" height="40" alt="PyMuPDF"/><br>PyMuPDF
   </td>
 </tr>
 </table>
