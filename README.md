@@ -22,8 +22,6 @@ Este repositório contém o material das aulas e exercícios propostos realizado
 
 ## 🚀 Tecnologias
 
-## 🚀 Tecnologias
-
 <table>
 <tr>
   <td align="center">
